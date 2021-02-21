@@ -8,7 +8,7 @@ trigger:
 
 pool:
   name: Default
-container: mkboice/alpine-node-zip
+container: mkboice/alpine-node-zip:latest
 
 steps:
   - task: CopyFiles@2
